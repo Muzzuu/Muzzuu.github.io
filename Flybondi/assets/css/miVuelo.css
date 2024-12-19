@@ -1,0 +1,51 @@
+#footer {
+  background-color: #ff69b4; /* Rosa brillante */
+  text-align: center;
+  font-family: "Scope One", serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+#texto {
+  display: grid;
+  position: absolute;
+  margin-top: 150px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); /* Blanco */
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+a {
+  font-family: "Scope One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff1493; /* Rosa oscuro */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe4e1; /* Rosa claro */
+  text-align: center;
+}
+
+#botonAbrirMenu {
+  border: none;
+  font-size: 1.25rem;
+  color: #ff69b4; /* Rosa brillante */
+}
+
+#botonAbrirMenu:focus, #botonCerrarMenu:focus {
+  box-shadow: none;
+  outline: none;
+}

@@ -1,0 +1,55 @@
+Array
+(
+    [nombre] => Jorge
+    [apellido] => Cupini
+    [fechaNacimiento] => 1111-11-11
+    [email] => a@gmail.com
+    [telefono] => 12312312
+    [pais] => Argentina
+    [dni] => 12312312
+    [genero] => Masculino
+)
+Array
+(
+    [nombre] => Jorge
+    [apellido] => Cupini
+    [fechaNacimiento] => 1111-11-11
+    [email] => a@gmail.com
+    [telefono] => 12312312
+    [pais] => Argentina
+    [dni] => 12312312
+    [genero] => Masculino
+)
+Array
+(
+    [nombre] => Jorge
+    [apellido] => Cupini
+    [fechaNacimiento] => 1111-11-11
+    [email] => a@gmail.com
+    [telefono] => 12312312
+    [pais] => Argentina
+    [dni] => 12312312
+    [genero] => Masculino
+)
+Array
+(
+    [nombre] => Jorge
+    [apellido] => Cupini
+    [fechaNacimiento] => 2222-02-22
+    [email] => Jorge@gmail.com
+    [telefono] => 12312332
+    [pais] => Argentina
+    [dni] => 12312332
+    [genero] => Masculino
+)
+Array
+(
+    [nombre] => Jorge
+    [apellido] => Cupini
+    [fechaNacimiento] => 2004-03-11
+    [email] => Jorge@gmail.com
+    [telefono] => 12312312
+    [pais] => Argentina
+    [dni] => 12312312
+    [genero] => Otro
+)

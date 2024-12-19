@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="assets/img/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Scope+One&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Flybondi</title>
+</head>
+<body>
+   
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:rgb(245, 137, 255);" >
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#"><img src="https://img.freepik.com/vector-premium/avion-rosa-cola-rosa-cielo-rosa-palabras-rosa-el_1187092-177509.jpg?w=900" alt="logo" width="50px"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="reserva.html">Mi Reserva</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Experiencia</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Destinos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Nuestros Destinos</a></li>
+                <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Flybondi</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main>
+    <div id="productCarousel" class="carousel slide">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex">
+            <div class="card" style="height: 340px;"  id="bienvenido">
+              <div class="card-body" >
+                <div>
+                  <div id="texto" style="color: #ff69b4;  text-shadow: 2px 2px #79223f;">¡Bienvenido!</div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="card" style="height: 340px;"  id="uno">
+                <div class="card-body" >
+                
+                    <!-- <div id="texto1">OFERTAS NAVIDEÑAS</div> -->
+
+                    <div id="texto1" style="color: #ff69b4;  text-shadow: 2px 2px #79223f;">
+                      OFERTAS NAVIDEÑAS
+                  </div>
+                  
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="card" style="height: 340px;" id="dos">
+                <div class="card-body">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+    
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center;">
+              <div class="card" style="height: 340px;"id="tres">
+                <div class="card-body">
+                  <div id="texto3"><img src="https://promociones-aereas.com.ar/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-13-a-las-01.02.47.png" alt="">SACA TU VUELO EN HASTA 24 CUOTAS!!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+<br>
+<br>
+
+<!--PEXELS PARA IMAGENES MEJOR CALIDAD-->
+
+      <div id="form-list">
+        <form action="agregar_ruta.php" method="POST" id="routeForm">
+          <select id="origen" name="origen"  class="form-select" aria-label="Default select example"  onchange="checkSameSelection()">
+            <option selected>Origen</option>
+            <option>Buenos Aires (BUE)</option>
+            <option>Bariloche (BRC)</option>
+            <option>Comodoro Rivadavia (CRD)</option>
+            <option>Córdoba (COR)</option>
+            <option>Corrientes (CNQ)</option>
+            <option>El Calafate (FTE)</option>
+            <option>Florianópolis (FLN)</option>
+            <option >Jujuy (JUJ)</option>
+            <option >Mendoza ( MDZ) </option>
+            <option >Neuquen (NQN)</option>
+            <option >Posadas (PSS)</option>
+            <option >Puerto Iguazu (IGR)</option>
+            <option >Puerto Madryn (PMY)</option>
+            <option >Rio de Janerio (RIO)</option>
+            <option >Salta(SLA)</option>
+            <option >San Juan (UAQ)</option>
+            <option >Santiago del Estero (SOE)</option>
+            <option >Sao Paoblo (SAO)</option>
+            <option >Tucumán (TUC)</option>
+            <option >Ushuaia (USH)</option>
+  
+          </select>
+  
+          <select id="destino" name="destino" class="form-select" aria-label="Default select example" onchange="checkSameSelection()">
+            <option selected>Destino</option>
+            <option>Buenos Aires (BUE)</option>
+            <option>Bariloche (BRC)</option>
+            <option>Comodoro Rivadavia (CRD)</option>
+            <option>Córdoba (COR)</option>
+            <option>Corrientes (CNQ)</option>
+            <option>El Calafate (FTE)</option>
+            <option>Florianópolis (FLN)</option>
+            <option >Jujuy (JUJ)</option>
+            <option >Mendoza ( MDZ) </option>
+            <option >Neuquen (NQN)</option>
+            <option >Posadas (PSS)</option>
+            <option >Puerto Iguazu (IGR)</option>
+            <option >Puerto Madryn (PMY)</option>
+            <option >Rio de Janerio (RIO)</option>
+            <option >Salta(SLA)</option>
+            <option >San Juan (UAQ)</option>
+            <option >Santiago del Estero (SOE)</option>
+            <option >Sao Paoblo (SAO)</option>
+            <option >Tucumán (TUC)</option>
+            <option >Ushuaia (USH)</option>
+          </select>
+
+<button id="enviarBtn" type="button" class="btn btn-dark"  disabled>Enviar</button>
+
+   
+            <label id="cant" for="" style="color:white; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px; margin-top: -1.5%;">Cantidad de Pasajaeros: 1</label>
+           
+    
+        </form>
+      </div>
+   
+    
+    
+
+</main>
+
+
+
+<footer>
+  <div id="footer" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+      Flybondi ® 2024
+  </div>
+  </footer>
+    <script src="assets/js/index.js"></script>
+    
+</body>
+
+<!--occupied-->
+
+
+
+</html>
